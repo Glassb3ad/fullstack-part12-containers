@@ -1,0 +1,3 @@
+docker start -i 6b006dd6715e
+root@6b006dd6715e:/# nano /usr/src/app/index.js
+root@6b006dd6715e:/# exit
