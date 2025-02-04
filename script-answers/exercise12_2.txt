@@ -1,0 +1,20 @@
+docker container run -it ubuntu bash
+root@6b006dd6715e:/# ls
+bin   dev  home  lib32  libx32  mnt  proc  run   srv  tmp  var
+boot  etc  lib   lib64  media   opt  root  sbin  sys  usr
+root@6b006dd6715e:/# mkdir usr/src/app
+root@6b006dd6715e:/# ls
+bin   dev  home  lib32  libx32  mnt  proc  run   srv  tmp  var
+boot  etc  lib   lib64  media   opt  root  sbin  sys  usr
+root@6b006dd6715e:/# cd usr/
+root@6b006dd6715e:/usr# ls
+bin  games  include  lib  lib32  lib64  libx32  local  sbin  share  src
+root@6b006dd6715e:/usr# cd src
+root@6b006dd6715e:/usr/src# ls
+app
+root@6b006dd6715e:/usr/src# cd app
+root@6b006dd6715e:/usr/src/app# touch index.js
+root@6b006dd6715e:/usr/src/app# ls
+index.js
+root@6b006dd6715e:/usr/src/app# exit
+exit
